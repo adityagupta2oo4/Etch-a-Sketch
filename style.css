@@ -1,6 +1,7 @@
 
 body{
-    
+    background-image: url("backgound.jpg");
+    background-size: cover; /* to make sure it cover entire background*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +16,8 @@ body{
     overflow: hidden;
     border-bottom: solid black 1px;
     border-right: solid black 1px;
+
+    box-shadow: 0 0 15px #cacaca;
     
     margin: auto;
 } 
@@ -40,21 +43,28 @@ input{
     border: none;
     width: 16%;
     height: 25px;
-    background-color: rgb(221, 221, 221);
+    background-color: rgba(255, 255, 255, 0.71);
     text-align: center;
+    border-radius: 10px;
 }
 
 button{
     width: 10%;
-    height: 50px;
+    height: 40px;
     margin:0 40px 0 40px ;
     border: none;
     background-color: aquamarine;
+    font-weight: 400;
+    border-radius: 20px;
+    box-shadow:  0 0 20 ghostwhite;
+
 
 }
 
 #colorPicker{
     width: 7%;
+    background-color: rgba(0, 0, 0, 0);  /*Transperent background color*/
+    
 }
 
 
